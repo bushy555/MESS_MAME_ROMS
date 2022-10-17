@@ -6,7 +6,9 @@ I physically own all of these machines, so this one liner disclaimer hopefully c
 I can't help it if others find this repositry.
 
 mbee.zip      Microbee: plonk this zip file, as it is, uncompressed, into the ROMS directory of mess/mame. Mess/mame will read directly from the zip file.
+
 roms.all.zip  VZ and Aquarius: Extract this zip file into the ROMS directory. Leave the .ZIP files as they are. Mess/mame will read directly from the zip file.
+
 
 Ensure that within the .ini file, the rom path is set correctly.
 For older versions of MESS, eg  (v1.49 from 2009-2011 era that works extremely well and is easy to use) Find, download and use the extra front end startup utility called MESSUI.EXE
@@ -97,6 +99,7 @@ then press ScrLock to disable full keyboard emulation, press Tab and select
 the File Manager, then load hoppy.vz into the Snapshot slot.
 
 
+
 4. More info
 ============
 
@@ -139,6 +142,7 @@ Some keys:
 Starting a system from the command line with the -listmedia switch will
 display the files it accepts. For vz300:
 
+
 d:\workspace\mame>mess64.exe vz300 -listmedia
  SYSTEM      MEDIA NAME (brief)   IMAGE FILE EXTENSIONS SUPPORTED
 ----------  --------------------  ------------------------------------
@@ -158,8 +162,8 @@ So you can use "-dump file.vz" to load it.
   66k (default) - with 64K memory expansion
   4098k - with 4MB memory expansion
 
-
 MESS Debuger 				mess.exe vz300 -debug			(type help)
+
 
 Loading a file from command line	mess.exe vz300 -dump FX.VZ
 
@@ -175,6 +179,8 @@ Dumping to AVI video file		mess.exe vz300 -dump FX.VZ -aviwrite fx.avi
 6. Running MAME on Linux - Command line example
 ===============================================
 mame laser210 -mem laser_64k -video soft -ui_active -bp ~/.mame/roms -resolution0 1280x720 -aspect 1000:750 -skip_gameinfo -nowindow -dump thejungle.vz 
+
+
 
 
 
