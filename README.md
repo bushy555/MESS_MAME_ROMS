@@ -2,12 +2,12 @@
 MESS and MAME ROMs - #VZ200 #VZ300 #Microbee #Aquarius computers.
 
 
-mbee.zip      - Microbee: put this zip file, compressed as is, into the ROMS directory of mess/mame. Mess/mame will read directly from the zip file.
+mbee.zip      : Microbee: put this zip file, compressed as is, into the ROMS directory of mess/mame. 
 
-roms.all.zip  - VZ200 / VZ300 / Aquarius: Extract this zip file into the ROMS directory. Then leave the .ZIP files as they are.
+roms.all.zip  : VZ200 / VZ300 / Aquarius: *Extract* this zip file into the ROMS directory. 
 
 
-
+Mess/mame will read directly from the zip files and read the appropriate ROM binary within each ZIP file for whichever computer.
 
 
 I got sick of loosing URL's for these ROMs, so dumped them here for my future reference.
