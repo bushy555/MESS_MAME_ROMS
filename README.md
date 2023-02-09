@@ -1,4 +1,5 @@
-# MESS_MAME_ROMS
+# MESS_MAME_ROMS . VZ200, VZ300, Microbee, Aquarius.
+
 MESS and MAME ROMs - #VZ200 #VZ300 #Microbee #Aquarius computers.
 
 
